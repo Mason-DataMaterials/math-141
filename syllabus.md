@@ -23,13 +23,11 @@ of applications from the natural and social sciences will be used.
 [Andrew Bray](https://andrewpbray.github.io)
 
 - Office: Library 304
-- Office Hours:  Tu: 1:45 - 3 PM, Th: 3 - 4:30 PM, and by appointment
+- Office Hours:  Tu: 1:45 - 3 PM, Th: 3 - 4 PM, and by appointment
 
 **Evening Help Session**
 
-- Math Lounge (L318)
-    - Sunday - 7-9 PM
-    - Thursday - 7-10 PM
+- TBA
 
 ### Textbook
 
@@ -50,10 +48,10 @@ on the first two, see the tabs at the top of the page.
 We'll have several examinations and quizzes throughout the semester in order to challenge your understanding and provide us with a sense of where you're at. Some will be more traditional pen and paper and others are to be done with the computer using R.
 
 **Midterm I**  
-Friday, September 23, 2016
+Friday, Feb 16, 2016 (tentative)
 
 **Midterm II**  
-Friday, due October 14th, 2016 (takehome)
+Friday, March 24th, 2016 (tentative)
 
 **Final**  
 Finals Week
