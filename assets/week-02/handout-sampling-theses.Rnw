@@ -1,0 +1,58 @@
+\documentclass[10pt]{article}
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{fancyhdr,url,hyperref}
+
+\oddsidemargin 0in  %0.5in
+\topmargin     0in
+\leftmargin    0in
+\rightmargin   0in
+\textheight    9in
+\textwidth     6in %6in
+
+\pagestyle{fancy}
+
+\lhead{\textsc{MATH 141}}
+\chead{\textsc{Sampling: Reed Senior Theses}}
+\lfoot{}
+\cfoot{}
+%\cfoot{\thepage}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.2pt}
+\renewcommand{\footrulewidth}{0.0pt}
+
+\newcommand{\ans}{\vspace{0.25in}}
+\newcommand{\R}{{\sf R}\xspace}
+\newcommand{\cmd}[1]{\texttt{#1}}
+
+\title{MATH 141:\\Intro to Probability and Statistics}
+
+\begin{document}
+
+The quintessential activity that Reed alumni do upon returning to campus is head up to the thesis tower to check to see if anyone has checked out their senior thesis. They're wondering: what is the chance that someone was interested in my work? To answer that question and learn more generally about the way in which senior theses are checked out, you will collect data on this phenomenon.
+
+\subsubsection*{Sampling considerations}
+Your objective is to learn as much about senior theses checkout patterns as you can with 3 people and only 45 minutes. Since your resources are limited, sampling is an essential technique here. With your group, discuss the following considerations to help guide your sampling. Keep in mind the example of literary digest - more data is worthless if it's not representative - and spend 15 - 30 minutes on this section.
+
+\begin{itemize}
+\item You need to record at least three items of information on each thesis; \emph{barcode number}, \emph{number of checkouts}, and \emph{year of publication}. Are there any other bits of information that you are interested in recording?
+\item What organizational scheme do the theses follow?
+\item How can you sample theses in such a way that your sample is representative of the population of all theses? Though stratified sampling would be powerful here, you wont have time to develop that strategy. Focus on building a representative simple random sample.
+\item You may want to collect preliminary data, i.e. try out your method on a very small population to assess if it is working as you intended and how long it takes.
+\end{itemize}
+
+Please detail your sampling strategy below and note any problems/challenges that you encountered.
+
+\newpage
+
+\subsubsection*{Data Collection and Recording}
+Use the provided notepads to systematically draw a sample of theses and record the variables of interest. Please wrap things up in the tower room at the end of class: even if you'd like to have a larger sample, a small thoughtful data set can still be very valuable. Before 6 pm this evening, your group is responsible for entering that data into google sheet linked here: \url{http://bit.ly/2kjX5UE}
+
+Each group will have their data in a different sheet of this google doc. Click the plus in the lower-left corner to add a new sheet, rename it based on your team number, then fill in the column names and the data values.
+
+\vspace{10mm}
+
+\includegraphics[scale=.5]{senior-thesis-sheets.png}
+
+
+\end{document}
