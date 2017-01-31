@@ -7,6 +7,15 @@ permalink: /problem-sets/
 Weekly problem sets to reinforce the concepts from the reading as
 well as the material that we address in class. You're encouraged to work on the problem sets with fellow students, though you'll both need to turn in your own work. Problem sets are due every **Monday** at the beginning of class.
 
+Problem set guidelines:
+
+1. Remove all paper fringes and staple all pages
+2. Problem set number, date, and name should be clearly stated
+3. Write or type out all work and calculations for computational questions and provide clear explanations for yes/no questions
+4. Problem sets should be neat and easy to read (i.e. not your scratch work)
+
+College is a place where both academic and professional skills are honed. Problem sets are practice. You should take advantage of the opportunity to practice not only what you’ve learned in class, but how to convey it in a direct and meaningful way. A perfect problem set will not only have the correct answers, it will be presented in a clean and easily understood way. I encourage you to strive for this, as it will pay off here at Reed and certainly beyond. 
+
 
 **PS1**: Please work through problems 1, 4, 6, 8, 10, 11, 15, 16, 17, 19, and 22 in the Exercises at the end of Chapter 1 (the first one is labeled 1.1 on page 43).
 
