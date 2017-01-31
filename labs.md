@@ -15,14 +15,14 @@ you'll need to go through a VPN. You can apply to CUS for access by filling out
 Every week you'll be working with a new data set and organizing your work in an
 RMarkdown document. You should complete work on your lab by **Thursday** at 11:59 PM.
 
-<!--
-
-### Labs
+### Lab Instructions
 
 1. <a href = "{{ site.baseurl }}/assets/week-01/intro_to_r.html" target = "_blank">Intro to R and RStudio</a> 
 
 2. <a href = "{{ site.baseurl }}/assets/week-02/intro_to_data.html" target = "_blank">Intro to Data</a>
 
+
+<!--
 3. <a href = "{{ site.baseurl }}/assets/week-03/probability.html" target = "_blank">Probability</a>
 
 4. <a href = "{{ site.baseurl }}/assets/week-05/normal_distribution.html" target = "_blank">The Normal Distribution</a>
