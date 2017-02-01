@@ -19,9 +19,9 @@ Problem sets are practice. You should take advantage of the opportunity to pract
 
 **PS1**: Please work through problems 1, 4, 6, 8, 10, 11, 15, 16, 17, 19, and 22 in the Exercises at the end of Chapter 1 (the first one is labeled 1.1 on page 43).
 
-<!--
+**PS2**: Please work through problems 24, 26, 33, 36, 37, 40, 47, and 50 in the Exercises at the end of Chapter 1.
 
-**PS2**: Please work through problems 24, 26, 33, 36, 37, 40, 42, 47, and 50 in the Exercises at the end of Chapter 1.
+<!--
 
 **PS3**: Please work through number 1 - 7 and 11 [here]({{ site.baseurl }}/assets/week-03/ps3.pdf). The remaining problems will be with PS4.
 
