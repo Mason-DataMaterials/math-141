@@ -65,7 +65,7 @@ size of the plotted circle. Please form a single chain that will
 create this plot, starting with the raw data set. You will also want 
 to exclude the edge cases from your analysis, so focus on the
 planes that have logged more than 20 flights and flown an average
-distance of less than 2000 miles. The points can be made transparent by adding an argument to `qplot()` called `alpha`, which must be given a value between 0 and 1.
+distance of less than 2000 miles. The points can be made transparent by adding an argument to `qplot()`: `alpha = I(.1)`.
 
 ```{r echo = FALSE, eval = TRUE, message = FALSE, warning = FALSE}
 flights %>%
@@ -75,7 +75,7 @@ flights %>%
             n = n()) %>%
   filter(n > 20,
          avg_dist < 2000) %>%
-  qplot(x = avg_dist, y = avg_delay, data = ., size = n, alpha = .05)
+  qplot(x = avg_dist, y = avg_delay, data = ., size = n, alpha = I(.1))
 ```
 
 
