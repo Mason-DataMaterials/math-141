@@ -1,0 +1,52 @@
+---
+title: "Data Wrangling"
+runtime: shiny
+output:
+  html_document:
+    css: www/lab.css
+    highlight: pygments
+    theme: cerulean
+    toc: true
+    toc_float: true
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(eval = FALSE)
+library(dplyr)
+library(ggplot2)
+library(oilabs)
+library(pnwflights)
+data(flights)
+```
+
+Recall from the last lab four elementary data operations:
+
+- `filter()`
+- `mutate()`
+- `summarize()`
+- `group_by()`
+
+This can be strung together in very powerful ways to help reveal the structure in your data.
+
+We're going to use a very similar data set as last lab but shift to a local context. Let's load the packages.
+
+```{r load-packages, message=FALSE}
+library(dplyr)
+library(ggplot2)
+library(oilabs)
+library(pnwflights14)
+```
+
+The `pnwflights14` package has a data set called `flights` which contains *all* of the flights that left from Seattle-Tacoma International Airport and Portland International Airport in 2014. Let's load that data:
+
+```{r}
+data(flights)
+```
+
+All of the following exercises require at least a bit of code for their answers.
+
+1.  How many flights left from these two airports in 2014?
+
+2. 
+
+

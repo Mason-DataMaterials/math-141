@@ -121,8 +121,38 @@ The pipe
 ![pipe](pipe.png)
 
 
+
+Data wrangling functions
+========================================================
+
+- filter()
+- mutate()
+- summarize()
+- group_by()
+
+```{r echo = FALSE}
+library(pnwflights14)
+library(ggplot2)
+library(dplyr)
+data(flights)
+
+head(flights)
+str(flights)
+
+# what proportion of flights were out of PDX?
+
+# which airport has lower departure delays?
+
+# which airline has the least departure delays out of PDX?
+
+```
+
+
+
 Exercise 8
 ========================================================
-What is the tail number of the plane with the fastest avg_speed? Hint: If you just want to show the avg_speed and tailnum and none of the other variables, use the select function at the end of your pipe to select just these two variables with select(avg_speed, tailnum). You can google this tail number to find out more about the aircraft.
+What is the tail number of the plane with the fastest avg_speed?
+
+
 
 

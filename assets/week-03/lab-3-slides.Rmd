@@ -1,0 +1,35 @@
+---
+title: "Untitled"
+output: ioslides_presentation
+---
+
+## Essential data operations
+
+- `filter()`
+- `mutate()`
+- `summarize()`
+- `group_by()`
+
+```{r echo = FALSE}
+library(pnwflights14)
+library(ggplot2)
+library(dplyr)
+data(flights)
+
+head(flights)
+str(flights)
+
+# what proportion of flights were out of PDX?
+
+# which airport has lower departure delays?
+
+# which airline has the least departure delays out of PDX?
+
+# what is the tail number of the plane with the fastest avg_speed?
+
+```
+
+
+
+## Exercise 8
+
