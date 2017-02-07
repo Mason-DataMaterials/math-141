@@ -1,13 +1,9 @@
 ---
 title: "Data Wrangling"
-runtime: shiny
 output:
   html_document:
-    css: www/lab.css
     highlight: pygments
     theme: cerulean
-    toc: true
-    toc_float: true
 ---
 
 ```{r global_options, include=FALSE}
@@ -15,7 +11,7 @@ knitr::opts_chunk$set(eval = FALSE)
 library(dplyr)
 library(ggplot2)
 library(oilabs)
-library(pnwflights)
+library(pnwflights14)
 data(flights)
 ```
 
@@ -26,7 +22,7 @@ Recall from the last lab four elementary data operations:
 - `summarize()`
 - `group_by()`
 
-This can be strung together in very powerful ways to help reveal the structure in your data.
+This can be strung together in very powerful ways to help reveal the structure in your data (`arrange()` might be considered a helpful fifth operation).
 
 We're going to use a very similar data set as last lab but shift to a local context. Let's load the packages.
 
@@ -47,6 +43,13 @@ All of the following exercises require at least a bit of code for their answers.
 
 1.  How many flights left from these two airports in 2014?
 
-2. 
+2.  What proportion of these flights left from Portland?
 
+3.  What is the most common destination for flights leaving Portland?
+
+4.  What is the most distant destination from Portland?
+
+5.  Using the airport nearest one of your hometowns, which day of the week and which airline seems best for flying there from Portland? Be clear on how you're defining *best*.
+
+6.  What is the tailnumber of the fastest plane that flew from one of these airports in 2014? Be sure to be clear how you're defining fastest.
 
