@@ -41,7 +41,7 @@ data(flights)
 
 All of the following exercises require at least a bit of code for their answers.
 
-1.  How many flights left from these two airports in 2014?
+1.  How many total flights left from these airports in 2014?
 
 2.  What proportion of these flights left from Portland?
 
@@ -52,4 +52,28 @@ All of the following exercises require at least a bit of code for their answers.
 5.  Using the airport nearest one of your hometowns, which day of the week and which airline seems best for flying there from Portland? Be clear on how you're defining *best*.
 
 6.  What is the tailnumber of the fastest plane that flew from one of these airports in 2014? Be sure to be clear how you're defining fastest.
+
+7.  The plot below displays the relationship between the mean arrival 
+delay and the mean distance travelled by every plane in the data set. 
+It also shows the total number of flights made by each plane by the 
+size of the plotted circle. Please form a single chain that will 
+create this plot, starting with the raw data set. You will also want 
+to exclude the edge cases from your analysis, so focus on the
+planes that have logged more than 20 flights and flown an average
+distance of less than 2000 miles. The points can be made transparent by adding an argument to `qplot()` called `alpha`, which must be given a value between 0 and 1.
+
+```{r echo = FALSE}
+flights %>%
+  group_by(tailnum) %>%
+  summarize(avg_delay = mean(arr_delay, na.rm = TRUE),
+            avg_dist = mean(distance, na.rm = TRUE),
+            n = n()) %>%
+  filter(n > 20,
+         avg_dist < 2000) %>%
+  qplot(x = avg_dist, y = avg_delay, data = ., size = n, alpha = .05)
+```
+
+
+
+
 
