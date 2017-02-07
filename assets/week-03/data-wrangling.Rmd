@@ -53,7 +53,7 @@ All of the following exercises require at least a bit of code for their answers.
 
 6.  What is the tailnumber of the fastest plane that flew from one of these airports in 2014? Be sure to be clear how you're defining fastest.
 
-7.  The plot below displays the relationship between the mean arrival 
+7.  **Challenge**: The plot below displays the relationship between the mean arrival 
 delay and the mean distance travelled by every plane in the data set. 
 It also shows the total number of flights made by each plane by the 
 size of the plotted circle. Please form a single chain that will 
@@ -62,7 +62,7 @@ to exclude the edge cases from your analysis, so focus on the
 planes that have logged more than 20 flights and flown an average
 distance of less than 2000 miles. The points can be made transparent by adding an argument to `qplot()` called `alpha`, which must be given a value between 0 and 1.
 
-```{r echo = FALSE}
+```{r echo = FALSE, eval = TRUE, message = FALSE, warning = FALSE}
 flights %>%
   group_by(tailnum) %>%
   summarize(avg_delay = mean(arr_delay, na.rm = TRUE),
