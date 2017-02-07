@@ -49,7 +49,12 @@ All of the following exercises require at least a bit of code for their answers.
 
 4.  What is the most distant destination from Portland?
 
-5.  Using the airport nearest one of your hometowns, which day of the week and which airline seems best for flying there from Portland? Be clear on how you're defining *best*.
+5.  Using the airport nearest one of your hometowns, which day of the week and which airline seems best for flying there from Portland? Be clear on how you're defining *best*. (note that there is no explicit weekday column in this data set, but there is sufficient information to piece it together. The following line of code can be added to your pipeline to create that new column. It uses functions in the `lubridate` package, so be sure to load it in at the start of this exercise).
+
+```{r eval = FALSE}
+mutate(day_of_week = wday(ymd(paste(year, month, day, set = "-")), label = T))
+```
+
 
 6.  What is the tailnumber of the fastest plane that flew from one of these airports in 2014? Be sure to be clear how you're defining fastest.
 

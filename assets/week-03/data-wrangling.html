@@ -169,7 +169,10 @@ $(document).ready(function () {
 <li><p>What proportion of these flights left from Portland?</p></li>
 <li><p>What is the most common destination for flights leaving Portland?</p></li>
 <li><p>What is the most distant destination from Portland?</p></li>
-<li><p>Using the airport nearest one of your hometowns, which day of the week and which airline seems best for flying there from Portland? Be clear on how you’re defining <em>best</em>.</p></li>
+<li><p>Using the airport nearest one of your hometowns, which day of the week and which airline seems best for flying there from Portland? Be clear on how you’re defining <em>best</em>. (note that there is no explicit weekday column in this data set, but there is sufficient information to piece it together. The following line of code can be added to your pipeline to create that new column. It uses functions in the <code>lubridate</code> package, so be sure to load it in at the start of this exercise).</p></li>
+</ol>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">mutate</span>(<span class="dt">day_of_week =</span> <span class="kw">wday</span>(<span class="kw">ymd</span>(<span class="kw">paste</span>(year, month, day, <span class="dt">set =</span> <span class="st">&quot;-&quot;</span>)), <span class="dt">label =</span> T))</code></pre></div>
+<ol start="6" style="list-style-type: decimal">
 <li><p>What is the tailnumber of the fastest plane that flew from one of these airports in 2014? Be sure to be clear how you’re defining fastest.</p></li>
 <li><p><strong>Challenge</strong>: The plot below displays the relationship between the mean arrival delay and the mean distance travelled by every plane in the data set. It also shows the total number of flights made by each plane by the size of the plotted circle. Please form a single chain that will create this plot, starting with the raw data set. You will also want to exclude the edge cases from your analysis, so focus on the planes that have logged more than 20 flights and flown an average distance of less than 2000 miles. The points can be made transparent by adding an argument to <code>qplot()</code> called <code>alpha</code>, which must be given a value between 0 and 1.</p></li>
 </ol>
