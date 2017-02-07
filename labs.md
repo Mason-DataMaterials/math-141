@@ -21,9 +21,9 @@ RMarkdown document. You should complete work on your lab by **Thursday** at 11:5
 
 2. <a href = "{{ site.baseurl }}/assets/week-02/intro_to_data.html" target = "_blank">Intro to Data</a>
 
+3. <a href = "{{ site.baseurl }}/assets/week-03/data-wrangling.html" target = "_blank">Data Wrangling</a>
 
 <!--
-3. <a href = "{{ site.baseurl }}/assets/week-03/probability.html" target = "_blank">Probability</a>
 
 4. <a href = "{{ site.baseurl }}/assets/week-05/normal_distribution.html" target = "_blank">The Normal Distribution</a>
 
