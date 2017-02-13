@@ -3,3 +3,8 @@
 .RData
 .Ruserdata
 *.DS_Store
+*.synctex.gz
+*.tex
+*.log
+*concordance.tex
+.gitignore
