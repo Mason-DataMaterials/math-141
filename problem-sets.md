@@ -24,6 +24,8 @@ Problem sets are practice. You should take advantage of the opportunity to pract
 
 **PS3**: Please work exercises found [here]({{ site.baseurl }}/assets/week-03/ps3.pdf). (Due Weds)
 
+**PS4**:  Please work through problems 1, 2, 3, 5, 7, and 10 in the Exercises at the end of Chapter 2.
+
 <!--
 
 **PS4**: Please work through the exercises found [here]({{ site.baseurl }}/assets/week-04/ps4.pdf). This PS is due Friday, 9/23.
