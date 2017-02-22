@@ -27,7 +27,7 @@ of applications from the natural and social sciences will be used.
 
 **Evening Help Session**
 
-- TBA
+- Weds and Sun from 7 - 9 PM in L 318 (math lounge)
 
 ### Textbook
 
