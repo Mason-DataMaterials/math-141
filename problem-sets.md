@@ -26,13 +26,15 @@ Problem sets are practice. You should take advantage of the opportunity to pract
 
 **PS4**:  Please work through problems 1, 2, 3, 5, 7, and 10 in the Exercises at the end of Chapter 2.
 
+**PS5**: Please work through problems 13, 16, 18, 20, 29, 37, 38, 39, and 40 in the Exercises at the end of Chapter 2.
+
 <!--
 
 **PS4**: Please work through the exercises found [here]({{ site.baseurl }}/assets/week-04/ps4.pdf). This PS is due Friday, 9/23.
 
 **PS5**:  Read the article on fivethirtyeight.com about sentencing (written last fall) <a href = "http://fivethirtyeight.com/features/prison-reform-risk-assessment/" target = "_blank">here</a> and answer the questions [here]({{ site.baseurl }}/assets/week-05/ps5-sentencing.html).  Also, please work through problems 1, 2, 3, 5, 7, and 10 in the Exercises at the end of Chapter 2.
 
-**PS6**: Please work through problems 13, 16, 18, 20, 29, 37, 38, 39, and 40 in the Exercises at the end of Chapter 2.
+
 
 **PS7**: Read the articles on fivethirtyeight.com <a href = "http://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/" target = "_blank">here</a> and Nature <a href = "http://www.nature.com/news/statisticians-issue-warning-over-misuse-of-p-values-1.19503" target = "_blank">here</a> and answer the questions [here]({{ site.baseurl }}/assets/week-07/ps7-pvals.html). Also, please work through problems 1, 11, 12, 20, 28, 30, 35, 37, 39, and 42 in the Exercises at the end of Chapter 3.
 
