@@ -1,0 +1,72 @@
+---
+title: "Inference for Categorical Data"
+output:
+  ioslides_presentation:
+    incremental: true
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+options(digits=3)
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggplot2)
+library(oilabs)
+```
+
+# Extending to two proportions
+
+
+## Question
+
+Scientists predict that global warming may have big effects on the polar regions within the next 100 years. One of the possible effects is that the northern ice cap may completely melt. Would this bother you a great deal, some, a little, or not at all if it actually happened?
+
+1. A great deal
+2. Some
+3. A little
+4. Not at all
+
+
+## {.build}
+
+*Are Reed Students different from a random sample of Americans?*
+
+GSS Survey data (2010)
+
+response     | count
+-------------|------
+A great deal | 454 
+Some         | 124 
+A little     | 52 
+Not at all   | 50
+Total        | 680
+
+$$\hat{p}_{US} = 454/680 \approx 0.67$$
+
+
+## {.build}
+
+### Parameter of interest
+Difference between the proportions of *all* Reed students and *all* Americans 
+who would be bothered a great deal by the northern ice cap completely melting.
+
+$$p_{Reed} - p_{US}$$
+
+### Point estimate
+Difference between the proportions of *sampled* Reed students and *sampled*
+Americans who would be bothered a great deal by the northern ice cap completely melting.
+
+$$\hat{p}_{Reed} - \hat{p}_{US}$$
+
+
+## Constructing a CI for $p_1 - p_2$ {.build}
+
+Details same as before:
+
+1. check conditions for using the normal approximation
+2. point estimate $\pm$ margin of error
+3. standard error
+
+$$ SE_{\hat{p}_1 - \hat{p}_2} = \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}} $$
+
+We swap in $\hat{p}_1$ and $\hat{p}_1$ for $p_1$ and $p_2$.
