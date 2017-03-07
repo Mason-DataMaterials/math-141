@@ -21,7 +21,7 @@ library(ggplot2)
 
 ##
 <center>
-<img src="../figs/pew-headline.png" alt="pew1" height = 370>
+<img src="../figs/pew-protest.png" alt="pew1" height = 600>
 </center>
 
 
@@ -46,10 +46,10 @@ $$ \textrm{point estimate} \pm 1.96 \times SE $$
 ## Question
 
 "The proportion of Americans who want to maintain planned parenthood is estimated
-to be between 57.1% and 62.9% with 95% confidence." Which of the following interpretations
+to be between 39.8% and 58.2% with 95% confidence." Which of the following interpretations
 are reasonable?
 
-1. The interval [.571, .629] provides a plausible range for $\hat{p}$
+1. The interval [.398, .582] provides a plausible range for $\hat{p}$
 2. We are certain that the population proportion lies within this interval.
 3. If we took many more samples of the same size and computed many $\hat{p}$s and
 many CIs, around 95% of those CIs would contain the population proportion.
