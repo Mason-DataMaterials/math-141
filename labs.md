@@ -26,13 +26,11 @@ RMarkdown document. You should complete work on your lab by **Thursday** at 11:5
 4. <a href = "{{ site.baseurl }}/assets/week-04/probability.html" target = "_blank">Probability</a>
 
 
-
 5. <a href = "{{ site.baseurl }}/assets/week-06/normal_distribution.html" target = "_blank">The Normal Distribution</a>
 
+6. <a href = "{{ site.baseurl }}/assets/week-07/inf_for_categorical_data.Rmd" target = "_blank">Inference for Categorical Data</a>
 
 <!--
-6. <a href = "{{ site.baseurl }}/assets/week-09/inf_for_numerical_data.html" target = "_blank">Inference for Numerical Data</a>
-
 7. <a href = "{{ site.baseurl }}/assets/week-10/roadless_usa.html" target = "_blank">Roadless USA</a>
 
 8. <a href = "{{ site.baseurl }}/assets/week-11/simple_regression.html" target = "_blank">Simple Linear Regression</a>
