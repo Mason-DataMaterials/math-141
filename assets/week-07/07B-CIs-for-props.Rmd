@@ -183,6 +183,7 @@ qplot(x = p_hats, geom = "density", adjust = 1.7) +
   stat_function(fun = dnorm, args = c(mean = p, sd = sqrt((p*(1-p))/n)), col = "tomato")
 ```
 
+# Interpreting a confidence interval
 
 # Making decisions with confidence intervals
 
