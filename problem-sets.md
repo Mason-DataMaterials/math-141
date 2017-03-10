@@ -30,7 +30,7 @@ Problem sets are practice. You should take advantage of the opportunity to pract
 
 **PS6**: Over break, catch up with <a href = "http://www.vox.com/science-and-health/2017/3/3/14792174/half-scientific-studies-news-are-wrong" target = "_blank">the news</a> and answer the following questions.
 
-1. If you are a scientist that aches to be written up in the newspapers, how might you conduct your analysis to maximize those changes?
+1. If you are a scientist that aches to be written up in the newspapers, how might you conduct your analysis to maximize your chances?
 2. As a consumer of media, how might you adjust your interpretation of "new study finds . . " articles in light of this reading?
 
 Also, please work through problems 1, 12, 20, 28, 30, 35, 37, and 39 in the Exercises at the end of Chapter 3.
