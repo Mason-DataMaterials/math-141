@@ -35,6 +35,8 @@ Problem sets are practice. You should take advantage of the opportunity to pract
 
 Also, please work through problems 1, 12, 20, 28, 30, 35, 37, and 39 in the Exercises at the end of Chapter 3.
 
+**PS7**: Please work through problem 42 at the end of Chapter 3 and problems 5, 10, 14, 30, and 35 in the Exercises at the end of Chapter 4.
+
 <!--
 
 **PS4**: Please work through the exercises found [here]({{ site.baseurl }}/assets/week-04/ps4.pdf). This PS is due Friday, 9/23.
