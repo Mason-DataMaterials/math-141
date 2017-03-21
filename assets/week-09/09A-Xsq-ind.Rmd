@@ -105,7 +105,7 @@ $k - 1$ degrees of freedom.
 
 ### R
 ```{r}
-1 - pchisq(139.64, df = 4)
+1 - pchisq(203.29, df = 4)
 ```
 
 We reject the hypothesis that the Reed first-year class represents a random sample
