@@ -131,6 +131,31 @@ qt(.025, df = 18)
 
 - Use the [applet](http://ismay.shinyapps.io/ProbApp)
 
+
+## Example: The Kilogram
+
+How do we know how much a kilogram weighs?
+
+
+## Example: The Kilogram
+
+Meet the IPK: International Prototype Kilogram, Paris, France.
+
+![](../figs/kilo.jpeg)
+
+## Example: The Kilogram
+
+**Question**
+
+The US has two copies of the IPK. Say they make a third copy for Reed. We take 6 measures of our new RPK and get the following:
+
+```{r echo = FALSE}
+c(0.997, 0.976, 1.032, 1.101, 1.004)
+```
+
+Is it a safe assumption that the RPK weighs the same as the IPK?
+
+
 ## Extra problem
 
 <center>
