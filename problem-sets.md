@@ -37,6 +37,8 @@ Also, please work through problems 1, 12, 20, 28, 30, 35, 37, and 39 in the Exer
 
 **PS7**: Please work through problem 42 at the end of Chapter 3 and problems 5, 10, 14, 30, and 35 in the Exercises at the end of Chapter 4.
 
+**PS8**: Please work through problems 5, 6, 9, 17, 21, 23, 30, 31, and 33 in the Exercises at the end of Chapter 5. These exercises will be due Wednesday, April 12th, in class.
+
 <!--
 
 **PS4**: Please work through the exercises found [here]({{ site.baseurl }}/assets/week-04/ps4.pdf). This PS is due Friday, 9/23.
