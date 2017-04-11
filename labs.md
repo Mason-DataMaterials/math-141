@@ -32,6 +32,8 @@ RMarkdown document. You should complete work on your lab by **Thursday** at 11:5
 
 7. <a href = "{{ site.baseurl }}/assets/week-11/simple_regression.html" target = "_blank">Simple Linear Regression</a>
 
+8. <a href = "{{ site.baseurl }}/assets/week-12/simple_regression_ii.html" target = "_blank"> Linear Regression II</a>
+
 <!--
 7. <a href = "{{ site.baseurl }}/assets/week-10/roadless_usa.html" target = "_blank">Roadless USA</a>
 
