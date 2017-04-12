@@ -43,19 +43,6 @@ What is the unit of observation?
 
 Let's look at the relationship between price, food rating, and decor rating.
 
-```{r echo=FALSE, eval=FALSE}
-require(rgl)
-plot3d(x = nyc$Food, y = nyc$Decor, z = nyc$Price, col = "steelblue", 
-       xlab = "Food rating", ylab = "Decor Rating", zlab = "Price")
-m1 <- lm(Price ~ Food + Decor, data = nyc)
-coefs <- m1$coef
-planes3d(coefs["Food"], coefs["Decor"], -1, coefs["(Intercept)"],
-         alpha = 0.4, col = "lightgray")
-```
-
-
-## What determines the price of a meal?
-
 \[ Price \sim Food + Decor \]
 
 ```{r}

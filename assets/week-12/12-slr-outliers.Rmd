@@ -1,5 +1,5 @@
 ---
-title: "Simple Linear Regression III"
+title: "Outliers"
 output:
   ioslides_presentation:
     incremental: true
@@ -15,17 +15,11 @@ library(oilabs)
 library(openintro)
 ```
 
-## 
-<center>
-<img src="../figs/res-plots1.png" width = 700>
-</center>
-
-# Outliers
 
 ## What is an outlier? {.build}
 
 <div class="columns-2">
-![outliers](http://marcoghislanzoni.com/blog/wp-content/uploads/2013/10/outliers_gladwell.jpg)
+![](http://marcoghislanzoni.com/blog/wp-content/uploads/2013/10/outliers_gladwell.jpg)
 
 **Outlier** is a general term to describe a data point that doesn't follow the
 pattern set by the bulk of the data, when one takes into account the model.
