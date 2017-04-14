@@ -182,6 +182,7 @@ summary(mBEST)$adj.r.squared
 ## {.smaller}
 
 ```{r, eval = FALSE}
+set.seed(213)
 poverty <- read.delim("../poverty.txt", header = TRUE)
 m1 <- lm(Poverty ~ Graduates, data = poverty)
 summary(m1)
