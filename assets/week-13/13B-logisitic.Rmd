@@ -125,6 +125,91 @@ summary(m2)
 ```
 
 
+# Comparing Models
+
+## Confusion matrix {.build}
+
+```{r, echo = FALSE}
+make_conf_mat <- function(model, test){
+  y <- test %>% 
+    mutate(prob = predict(model, newdata = test, type = "response"))
+  
+  if (is.factor(y$prob)){
+    y <- y %>% 
+      mutate(pred = prob) %>% 
+      group_by(spam, pred) %>%
+      tally()
+  } else {
+    y <- y %>% 
+      mutate(pred = prob > .5) %>% 
+      group_by(spam, pred) %>%
+      tally()
+  }
+    
+  y
+}
+
+misclass <- function(conf_mat){
+  if(nrow(conf_mat) == 4){
+    num_misclass <- conf_mat %>% 
+      ungroup() %>% 
+      filter((spam == 1 & pred == 0) | (spam == 0 & pred == 1)) %>%
+      summarise(n = sum(n)) %>% 
+      mutate(n = n/nrow(test_data))
+  } else if(nrow(conf_mat) == 2){
+    num_misclass <- conf_mat %>% 
+      ungroup() %>% 
+      filter(spam == 0) %>% 
+      select(n) %>% 
+      mutate(n = n/nrow(test_data))
+  } else return(NA)
+  
+  return(num_misclass[[1,1]])
+}
+```
+
+```{r}
+make_conf_mat(m1, email)
+make_conf_mat(m2, email)
+```
+
+## Test-train
+
+In the test-train paradigm, you balance descriptive power with predictive accuracy by separating your data set into:
+
+1. **Training set**: used to fit your model
+2. **Testing set**: used to evaluate predictive accuracy
+
+Related to cross-validation...
+
+## Dividing the data
+
+```{r}
+set.seed(501)
+train_indices <- sample(1:nrow(email), size = floor(nrow(email)/2))
+
+train_data <- email %>%
+  slice(train_indices)
+test_data <- email %>%
+  slice(-train_indices)
+```
+
+## Training
+
+```{r}
+m1 <- glm(spam ~ log(num_char), data = train_data, family = "binomial")
+m2 <- glm(spam ~ log(num_char) + to_multiple + attach + dollar + inherit + 
+            viagra, data = train_data, family = "binomial")
+```
+
+## Testing
+
+```{r}
+make_conf_mat(m1, test_data)
+make_conf_mat(m2, test_data)
+```
+
+
 ## Extending the model {.build}
 
 A GLM consists of three things:
