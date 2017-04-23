@@ -41,6 +41,8 @@ Also, please work through problems 1, 12, 20, 28, 30, 35, 37, and 39 in the Exer
 
 **PS9**: Please work through problems 1, 2, 3, 7, 9, and 11 in the Exercises at the end of Chapter 6. (Due Wednesday)
 
+**PS10**: Please work through problems 13, 14, 15 in the Exercises at the end of Chapter 6. Due Wednesday.
+
 <!--
 
 **PS4**: Please work through the exercises found [here]({{ site.baseurl }}/assets/week-04/ps4.pdf). This PS is due Friday, 9/23.
