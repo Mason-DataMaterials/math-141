@@ -18,7 +18,7 @@ library(ggplot2)
 
 Please draw your own subjective distributions for the following events.
 
-1. The probability that it will snow at Reed this winter.
+1. The probability that it will snow at Reed next winter.
 2. The probability that, on a given night, the sun has gone super nova.
 3. The total number of individual socks that you own.
 
@@ -212,7 +212,7 @@ What does it mean to think about $P(model)$?
 
 Please draw your own subjective distributions for the following events.
 
-1. The probability that it will snow at Reed this winter.
+1. The probability that it will snow at Reed next winter.
 2. The probability that, on a given night, the sun has gone super nova.
 3. The total number of individual socks that you own.
 
